@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1", "Day1\Day1.csproj", "{7F68BD27-1FA7-4877-B836-F2AB9EDD979C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1Part1", "Day1\Part1\Day1Part1.csproj", "{7F68BD27-1FA7-4877-B836-F2AB9EDD979C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1Part2", "Day1Part2\Day1Part2.csproj", "{1461F7EA-9A54-4688-9593-B5F65B5E9DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1Part2", "Day1\Part2\Day1Part2.csproj", "{1461F7EA-9A54-4688-9593-B5F65B5E9DB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day1", "Day1", "{FC537FC3-8778-45C8-B1A1-02EF2BC998F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F68BD27-1FA7-4877-B836-F2AB9EDD979C} = {FC537FC3-8778-45C8-B1A1-02EF2BC998F2}
+		{1461F7EA-9A54-4688-9593-B5F65B5E9DB8} = {FC537FC3-8778-45C8-B1A1-02EF2BC998F2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8C3D5157-3091-4FF0-8B54-143A3493E99F}
